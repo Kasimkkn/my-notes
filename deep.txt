@@ -1,0 +1,132 @@
+🤔 Deep Learning Tutorial
+
+👉 What is Deep Learning?
+
+	Deep Learning is a subset of machine learning that focuses on learning feature hierarchies through artificial neural networks. It is particularly powerful for tasks involving 	large amounts of data and complex patterns.
+	Applications include both classification and regression tasks.
+
+👉 What is a Neuron and Neural Networks?
+
+	A neuron is the basic unit of a neural network, inspired by biological neurons. It receives input, processes it, and passes the output to the next layer.
+	A neural network is a collection of interconnected neurons organized in layers, including an input layer, hidden layers, and an output layer.
+	Types of Deep Learning Networks
+
+👉 Perceptron: 
+	The simplest type of neural network, consisting of a single layer of neurons.
+👉 Feed Forward Network: 
+	Information flows in one direction from input to output.
+👉 Multi-layer Perceptron (MLP):
+	Also known as Artificial Neural Networks (ANN), these networks have multiple layers of neurons.
+👉 Radial Basis Function Network:
+	Uses radial basis functions as activation functions.
+👉 Convolutional Neural Network (CNN): 
+	Designed for processing structured grid data like images.
+👉 Recurrent Neural Network (RNN): 
+	Designed for sequential data, such as text.
+👉 Long Short-Term Memory (LSTM): 
+	A type of RNN that addresses the vanishing gradient problem, effective for long-term dependencies.
+
+👉 Single Layer Perceptron
+
+	A single-layer perceptron is the simplest form of a neural network, consisting of a single layer of output neurons connected to an input layer.
+	How Perceptron Works? Perceptron computes a weighted sum of its inputs, applies an activation function, and outputs the result.
+
+👉 Multilayer Perceptron and Notation (ANN)
+
+	Multilayer Perceptron (MLP) consists of multiple layers of neurons (input, hidden, and output layers) where each layer is fully connected to the next.
+	Notation: Input layer (X), weights (W), biases (b), activation functions (ϕ), and output layer (Y).
+
+👉 Forward Propagation
+
+	The process by which input data is passed through the network layer by layer to generate an output.
+
+👉 Backpropagation
+
+	A training algorithm that adjusts weights by calculating the gradient of the loss function with respect to each weight using the chain rule.
+
+👉 Activation Functions for Neural Networks
+
+	Functions applied to neurons' output to introduce non-linearity.
+	Sigmoid
+	Tanh
+	ReLU (Rectified Linear Unit)
+	Leaky ReLU
+	Softmax
+
+👉 ReLU Activation Function Variants
+
+	Variants of ReLU include Leaky ReLU, Parametric ReLU, and Exponential ReLU.
+
+👉 Loss Functions
+
+	Functions that measure the difference between the predicted and actual outputs.
+	Mean Squared Error (MSE)
+	Cross-Entropy Loss
+	Hinge Loss
+
+👉 Customer Churn Prediction using ANN
+
+	An application of ANN to predict customer churn by analyzing historical customer data.
+
+👉 Gradient Descent
+
+	An optimization algorithm used to minimize the loss function by iteratively updating the weights.
+	Improve the Performance of a Neural Network
+	Techniques include:
+	Hyperparameter tuning
+	Regularization
+	Data augmentation
+	Model ensemble
+
+👉 Identify Overfitting in Deep Learning
+
+	Overfitting occurs when a model performs well on training data but poorly on validation data.
+	Methods to identify include:
+	Validation loss
+	Learning curves
+
+👉 Early Stopping
+
+	A regularization technique where training stops when the validation loss starts to increase, preventing overfitting.
+
+👉 Data Scaling
+
+	Normalizing input data to improve the training stability and performance of the neural network.
+
+👉 Dropout Layer
+
+	A regularization technique where randomly selected neurons are ignored during training, reducing overfitting.
+
+👉 Vanishing Gradient Problem
+
+	A problem in deep networks where gradients become very small, preventing effective training of earlier layers.
+	Solutions include:
+	ReLU activation function
+	Batch normalization
+
+👉 Regularization in Deep Learning
+
+	Techniques to reduce overfitting by adding constraints to the model.
+	L1 and L2 regularization
+	Dropout
+
+👉 Optimizers in Neural Networks
+
+	Algorithms to update the weights during training.
+	Adagrad
+	RMSprop
+	Adam
+
+👉 Convolutional Neural Network (CNN)
+
+	A type of neural network that uses convolutional layers to process image data by capturing spatial hierarchies.
+
+👉 Natural Language Processing (NLP)
+
+	Techniques and algorithms to process and analyze textual data.
+
+👉 NLP Pipeline
+
+	Steps involved in processing textual data for NLP tasks.
+	Text acquisition
+	Text pre-processing
